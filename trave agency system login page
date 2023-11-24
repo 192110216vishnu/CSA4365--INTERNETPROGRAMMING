@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Travel Agency System</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Flights</a></li>0
+				<li><a href="#">Hotels</a></li>
+				<li><a href="#">Tours</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">Sign In</a></li>
+			</ul>
+		</nav>
+		<h1>Travel Agency System</h1>
+	</header>
+	
+	<main>
+		<section id="banner">
+			<h2>Explore the World</h2>
+			<p>Book your dream vacation today</p>
+			<button>Get Started</button>
+		</section>
+		
+		<section id="search">
+			<h3>Find Your Perfect Trip</h3>
+			<form>
+				<label for="destination">Destination:</label>
+				<input type="text" id="destination" name="destination" placeholder="Enter destination">
+				
+				<label for="dates">Travel Dates:</label>
+				<input type="date" id="dates" name="dates">
+				
+				<label for="type">Type:</label>
+				<select id="type" name="type">
+					<option value="flights">Flights</option>
+					<option value="hotels">Hotels</option>
+					<option value="tours">Tours</option>
+				</select>
+				
+				<button>Search</button>
+			</form>
+		</section>
+		
+		<section id="featured">
+			<h3>Featured Destinations</h3>
+			<div class="card">
+				<img src="https://via.placeholder.com/350x200" alt="Destination Image">
+				<h4>New York City</h4>
+				<p>From $499</p>
+				<button>Book Now</button>
+			</div>
+			
+			<div class="card">
+				<img src="https://via.placeholder.com/350x200" alt="Destination Image">
+				<h4>Paris</h4>
+				<p>From $699</p>
+				<button>Book Now</button>
+			</div>
+			
+			<div class="card">
+				<img src="https://via.placeholder.com/350x200" alt="Destination Image">
+				<h4>Tokyo</h4>
+				<p>From $799</p>
+				<button>Book Now</button>
+			</div>
+		</section>
+	</main>
+	
+	<footer>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Flights</a></li>
+			<li><a href="#">Hotels</a></li>
+			<li><a href="#">Tours</a></li>
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Contact</a></li>
+			<li><a href="#">Sign In</a></li>
+		</ul>
+		
+		<p>&copy; 2023 Travel Agency System
